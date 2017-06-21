@@ -1,8 +1,8 @@
 {
-	"name" : "EIA2Zum10Mal",
+	"name" : "Aufgabe 10",
 	"version" : "0.0.1",
 	"description" : "enter a description of the project here",
-	"author" : "enter your name here",
+	"author" : "Jonathan Lingnau",
 	"main" : "NodeTest.js",
 	"scripts" : {
 		"start" : "node NodeTest.js"
