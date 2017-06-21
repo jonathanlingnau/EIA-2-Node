@@ -32,9 +32,9 @@ function handleRequest(_request: Http.IncomingMessage, _response: Http.ServerRes
 
     _response.setHeader("Access-Control-Allow-Origin", "*");
     _response.setHeader("content-type", "text/html; charset=utf-8");
-//    for (key in query) {
-//        _response.write(key + ":" + query[key]);
-//    }
+    for (key in query) {
+        _response.write(key + ":" + query[key]);
+    }
     _response.write("Vielen Dank für Ihre Bestellung!\n\n" + "Bitte prüfen Sie nocheinmal Ihre Bestellung. Falls diese Fehlerhaft sein sollte wenden Sie sich bitte an unseren Support.\n" );
     
     _response.write("Schokolade: " + query["Schokolade"] + "\n");
