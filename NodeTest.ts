@@ -36,11 +36,5 @@ function handleRequest(_request: Http.IncomingMessage, _response: Http.ServerRes
         _response.write(key + ":" + query[key]);
     }
     _response.write("Vielen Dank für Ihre Bestellung!\n\n" + "Bitte prüfen Sie nocheinmal Ihre Bestellung. Falls diese Fehlerhaft sein sollte wenden Sie sich bitte an unseren Support.\n" );
-    
-    _response.write("Schokolade: " + query["Schokolade"] + "\n");
-    _response.write("Erdbeere: " + query["Erdbeere"] + "\n");
-    _response.write("Haselnuss: " + query["Haselnuss"] + "\n");
-    _response.write("Vanille: " + query["Vanille"] + "\n");
-    _response.write("Banane: " + query["Banane"] + "\n");
     _response.end();
 }
