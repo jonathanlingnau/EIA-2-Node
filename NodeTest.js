@@ -25,7 +25,7 @@ function handleRequest(_request, _response) {
     for (key in query) {
         _response.write(key + ":" + query[key]);
     }
-    _response.write("Vielen Dank f�r Ihre Bestellung!" + "\n" + "Bitte pr�fen Sie nocheinmal Ihre Bestellung. Falls diese Fehlerhaft sein sollte wenden Sie sich bitte an unseren Support.\n");
+    _response.write("Vielen Dank f�r Ihre Bestellung!" + "<br>" + "Bitte pr�fen Sie nocheinmal Ihre Bestellung. Falls diese Fehlerhaft sein sollte wenden Sie sich bitte an unseren Support.\n");
     _response.end();
 }
 //# sourceMappingURL=NodeTest.js.map

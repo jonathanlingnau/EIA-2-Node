@@ -35,6 +35,6 @@ function handleRequest(_request: Http.IncomingMessage, _response: Http.ServerRes
     for (key in query) {
         _response.write(key + ":" + query[key]);
     }
-    _response.write("Vielen Dank für Ihre Bestellung!"+ "\n" + "Bitte prüfen Sie nocheinmal Ihre Bestellung. Falls diese Fehlerhaft sein sollte wenden Sie sich bitte an unseren Support.\n" );
+    _response.write("Vielen Dank für Ihre Bestellung!"+ "<br>" + "Bitte prüfen Sie nocheinmal Ihre Bestellung. Falls diese Fehlerhaft sein sollte wenden Sie sich bitte an unseren Support.\n" );
     _response.end();
 }
