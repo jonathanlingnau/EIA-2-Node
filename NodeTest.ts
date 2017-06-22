@@ -1,3 +1,11 @@
+//Aufgabe: 10
+//Name: Jonathan Lingnau
+//Matrikel: 255645
+//Datum: 21.06.17
+//    
+//Hiermit versichere ich, dass ich diesen Code selbst und in Zusammenarbeit mit Leonie Storz geschrieben habe. 
+//Er wurde nicht kopiert und auch nicht diktiert.
+
 console.log("Server starting");
 
 import Http = require("http");
